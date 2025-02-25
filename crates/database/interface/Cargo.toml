@@ -27,7 +27,7 @@ state.workspace = true
 primitives.workspace = true
 
 # misc
-auto_impl.workspace = true
+auto_impl = "1.1"
 
 # Optional
 serde = { workspace = true, features = ["derive", "rc"], optional = true }
