@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-alpha.2](https://github.com/getong/revm/compare/revm-handler-v1.0.0-alpha.1...revm-handler-v1.0.0-alpha.2) - 2025-03-07
+
+### Fixed
+
+- *(op)* Handler deposit tx halt, catch_error handle ([#2144](https://github.com/getong/revm/pull/2144))
+- call clear ([#2091](https://github.com/getong/revm/pull/2091))
+
+### Other
+
+- rename transact_previous to replay, move EvmTr traits ([#2153](https://github.com/getong/revm/pull/2153))
+- docs and cleanup (rm Custom Inst) ([#2151](https://github.com/getong/revm/pull/2151))
+- move mainnet builder to handler crate ([#2138](https://github.com/getong/revm/pull/2138))
+- add immutable gas API to LoopControl ([#2134](https://github.com/getong/revm/pull/2134))
+- PrecompileErrors to PrecompileError ([#2103](https://github.com/getong/revm/pull/2103))
+- re-export all crates from `revm` ([#2088](https://github.com/getong/revm/pull/2088))
+
 ## [1.0.0-alpha.1](https://github.com/bluealloy/revm/releases/tag/revm-handler-v1.0.0-alpha.1) - 2025-02-16
 
 ### Added
